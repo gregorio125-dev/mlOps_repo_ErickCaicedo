@@ -1,0 +1,27 @@
+# Entorno virtual
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Pruebas y cobertura
+.pytest_cache/
+.coverage
+coverage.xml
+test-results.xml
+htmlcov/
+
+# SonarCloud / Jenkins
+.scannerwork/
+
+# Secretos y editores
+.env
+*.env
+.vscode/
+.idea/
+.DS_Store

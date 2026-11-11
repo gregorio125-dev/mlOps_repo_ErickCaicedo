@@ -1,0 +1,50 @@
+{
+  "modelo": "Regresion Logistica",
+  "umbral_decision": 0.5,
+  "variable_objetivo": "Pago_atiempo",
+  "metricas_test": {
+    "accuracy": 0.66,
+    "balanced_accuracy": 0.6399,
+    "precision_clase0": 0.0833,
+    "recall_clase0": 0.6176,
+    "f1_clase0": 0.1469,
+    "f1_macro": 0.4673,
+    "mcc": 0.1245,
+    "roc_auc": 0.6951,
+    "pr_auc_clase0": 0.1455
+  },
+  "features": [
+    "capital_prestado",
+    "plazo_meses",
+    "edad_cliente",
+    "salario_cliente",
+    "total_otros_prestamos",
+    "cuota_pactada",
+    "puntaje_datacredito",
+    "cant_creditosvigentes",
+    "huella_consulta",
+    "saldo_mora",
+    "saldo_total",
+    "saldo_principal",
+    "saldo_mora_codeudor",
+    "creditos_sectorFinanciero",
+    "creditos_sectorCooperativo",
+    "creditos_sectorReal",
+    "promedio_ingresos_datacredito",
+    "cuota_sobre_salario",
+    "capital_sobre_salario",
+    "deuda_sobre_salario",
+    "salario_sobre_ingreso_datacredito",
+    "total_creditos_sectores",
+    "mora_total",
+    "tiene_mora",
+    "tipo_credito",
+    "tipo_laboral",
+    "tendencia_ingresos"
+  ],
+  "columnas_excluidas": [
+    "puntaje"
+  ],
+  "n_train": 8610,
+  "n_test": 2153
+}

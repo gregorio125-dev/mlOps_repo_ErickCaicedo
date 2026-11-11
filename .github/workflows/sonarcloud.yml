@@ -1,0 +1,27 @@
+name: SonarCloud
+on:
+  push:
+    branches: [developer, certification, master]
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  analisis:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # historial completo para un análisis fiable
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Instalar dependencias
+        run: |
+          sed '/# --- Desarrollo/,$d' requirements.txt > req-ci.txt
+          pip install -r req-ci.txt pytest pytest-cov httpx
+      - name: Pruebas y cobertura
+        run: python -m pytest tests --cov=mlops_pipeline --cov-report=xml
+      - name: Análisis SonarCloud
+        uses: SonarSource/sonarqube-scan-action@v7
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
