@@ -1,0 +1,5 @@
+modelo,accuracy_test,balanced_accuracy_test,precision_clase0_test,recall_clase0_test,f1_clase0_test,f1_macro_test,mcc_test,roc_auc_test,pr_auc_clase0_test,roc_auc_train,roc_auc_cv_media,roc_auc_cv_std,brecha_train_test,tiempo_entrenamiento_s,tiempo_prediccion_1000_s,score_performance,score_consistency,score_scalability,score_final
+Regresion Logistica,0.66,0.6399,0.0833,0.6176,0.1469,0.4673,0.1245,0.6951,0.1455,0.6955,0.6634,0.0126,0.0004,0.0966,0.0115,1.0,1.0,1.0,1.0
+Random Forest,0.954,0.524,0.7143,0.049,0.0917,0.5341,0.1793,0.6559,0.1615,1.0,0.6722,0.0193,0.3441,0.9162,0.0373,0.5956,0.0,0.2491,0.3947
+Arbol de Decision,0.6377,0.5863,0.0687,0.5294,0.1216,0.4467,0.0761,0.5982,0.1083,0.7902,0.5791,0.0271,0.192,0.1196,0.0101,0.0,0.4119,0.972,0.2488
+Hist Gradient Boosting,0.8059,0.5953,0.0949,0.3627,0.1504,0.5204,0.1052,0.6304,0.1717,0.9484,0.6475,0.0223,0.318,1.3059,0.0155,0.3323,0.066,0.0,0.2159

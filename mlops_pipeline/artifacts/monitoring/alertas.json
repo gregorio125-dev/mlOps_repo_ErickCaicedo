@@ -1,0 +1,189 @@
+{
+  "alertas": [
+    {
+      "severidad": "critica",
+      "periodo": "2025-03 a 2025-04",
+      "variable": "promedio_ingresos_datacredito",
+      "mensaje": "Drift crítico en 'promedio_ingresos_datacredito' (2025-03 a 2025-04): PSI=0.335"
+    },
+    {
+      "severidad": "critica",
+      "periodo": "2025-05",
+      "variable": "plazo_meses",
+      "mensaje": "Drift crítico en 'plazo_meses' (2025-05): PSI=0.393"
+    },
+    {
+      "severidad": "critica",
+      "periodo": "2025-05",
+      "variable": "promedio_ingresos_datacredito",
+      "mensaje": "Drift crítico en 'promedio_ingresos_datacredito' (2025-05): PSI=0.401"
+    },
+    {
+      "severidad": "critica",
+      "periodo": "2025-05",
+      "variable": "tipo_credito",
+      "mensaje": "Drift crítico en 'tipo_credito' (2025-05): PSI=0.226"
+    },
+    {
+      "severidad": "critica",
+      "periodo": "2025-06",
+      "variable": "plazo_meses",
+      "mensaje": "Drift crítico en 'plazo_meses' (2025-06): PSI=0.557"
+    },
+    {
+      "severidad": "critica",
+      "periodo": "2025-06",
+      "variable": "promedio_ingresos_datacredito",
+      "mensaje": "Drift crítico en 'promedio_ingresos_datacredito' (2025-06): PSI=0.412"
+    },
+    {
+      "severidad": "critica",
+      "periodo": "2025-06",
+      "variable": "tipo_credito",
+      "mensaje": "Drift crítico en 'tipo_credito' (2025-06): PSI=0.247"
+    },
+    {
+      "severidad": "critica",
+      "periodo": "2025-07",
+      "variable": "plazo_meses",
+      "mensaje": "Drift crítico en 'plazo_meses' (2025-07): PSI=0.516"
+    },
+    {
+      "severidad": "critica",
+      "periodo": "2025-07",
+      "variable": "promedio_ingresos_datacredito",
+      "mensaje": "Drift crítico en 'promedio_ingresos_datacredito' (2025-07): PSI=0.437"
+    },
+    {
+      "severidad": "critica",
+      "periodo": "2025-08",
+      "variable": "plazo_meses",
+      "mensaje": "Drift crítico en 'plazo_meses' (2025-08): PSI=0.528"
+    },
+    {
+      "severidad": "critica",
+      "periodo": "2025-08",
+      "variable": "total_otros_prestamos",
+      "mensaje": "Drift crítico en 'total_otros_prestamos' (2025-08): PSI=0.294"
+    },
+    {
+      "severidad": "critica",
+      "periodo": "2025-08",
+      "variable": "promedio_ingresos_datacredito",
+      "mensaje": "Drift crítico en 'promedio_ingresos_datacredito' (2025-08): PSI=0.487"
+    },
+    {
+      "severidad": "critica",
+      "periodo": "2025-08",
+      "variable": "cuota_sobre_salario",
+      "mensaje": "Drift crítico en 'cuota_sobre_salario' (2025-08): PSI=0.307"
+    },
+    {
+      "severidad": "critica",
+      "periodo": "2025-08",
+      "variable": "deuda_sobre_salario",
+      "mensaje": "Drift crítico en 'deuda_sobre_salario' (2025-08): PSI=0.430"
+    },
+    {
+      "severidad": "critica",
+      "periodo": "2025-08",
+      "variable": "salario_sobre_ingreso_datacredito",
+      "mensaje": "Drift crítico en 'salario_sobre_ingreso_datacredito' (2025-08): PSI=0.301"
+    },
+    {
+      "severidad": "critica",
+      "periodo": "2025-09",
+      "variable": "plazo_meses",
+      "mensaje": "Drift crítico en 'plazo_meses' (2025-09): PSI=0.356"
+    },
+    {
+      "severidad": "critica",
+      "periodo": "2025-09",
+      "variable": "total_otros_prestamos",
+      "mensaje": "Drift crítico en 'total_otros_prestamos' (2025-09): PSI=0.380"
+    },
+    {
+      "severidad": "critica",
+      "periodo": "2025-09",
+      "variable": "promedio_ingresos_datacredito",
+      "mensaje": "Drift crítico en 'promedio_ingresos_datacredito' (2025-09): PSI=0.514"
+    },
+    {
+      "severidad": "critica",
+      "periodo": "2025-09",
+      "variable": "deuda_sobre_salario",
+      "mensaje": "Drift crítico en 'deuda_sobre_salario' (2025-09): PSI=0.350"
+    },
+    {
+      "severidad": "critica",
+      "periodo": "2025-10 a 2025-11",
+      "variable": "salario_cliente",
+      "mensaje": "Drift crítico en 'salario_cliente' (2025-10 a 2025-11): PSI=0.239"
+    },
+    {
+      "severidad": "critica",
+      "periodo": "2025-10 a 2025-11",
+      "variable": "total_otros_prestamos",
+      "mensaje": "Drift crítico en 'total_otros_prestamos' (2025-10 a 2025-11): PSI=0.306"
+    },
+    {
+      "severidad": "critica",
+      "periodo": "2025-10 a 2025-11",
+      "variable": "promedio_ingresos_datacredito",
+      "mensaje": "Drift crítico en 'promedio_ingresos_datacredito' (2025-10 a 2025-11): PSI=0.472"
+    },
+    {
+      "severidad": "critica",
+      "periodo": "2025-10 a 2025-11",
+      "variable": "deuda_sobre_salario",
+      "mensaje": "Drift crítico en 'deuda_sobre_salario' (2025-10 a 2025-11): PSI=0.399"
+    },
+    {
+      "severidad": "critica",
+      "periodo": "2025-12 a 2026-04",
+      "variable": "capital_prestado",
+      "mensaje": "Drift crítico en 'capital_prestado' (2025-12 a 2026-04): PSI=0.290"
+    },
+    {
+      "severidad": "critica",
+      "periodo": "2025-12 a 2026-04",
+      "variable": "plazo_meses",
+      "mensaje": "Drift crítico en 'plazo_meses' (2025-12 a 2026-04): PSI=0.011"
+    },
+    {
+      "severidad": "critica",
+      "periodo": "2025-12 a 2026-04",
+      "variable": "salario_cliente",
+      "mensaje": "Drift crítico en 'salario_cliente' (2025-12 a 2026-04): PSI=0.250"
+    },
+    {
+      "severidad": "critica",
+      "periodo": "2025-12 a 2026-04",
+      "variable": "total_otros_prestamos",
+      "mensaje": "Drift crítico en 'total_otros_prestamos' (2025-12 a 2026-04): PSI=0.346"
+    },
+    {
+      "severidad": "critica",
+      "periodo": "2025-12 a 2026-04",
+      "variable": "promedio_ingresos_datacredito",
+      "mensaje": "Drift crítico en 'promedio_ingresos_datacredito' (2025-12 a 2026-04): PSI=0.831"
+    },
+    {
+      "severidad": "critica",
+      "periodo": "2025-12 a 2026-04",
+      "variable": "deuda_sobre_salario",
+      "mensaje": "Drift crítico en 'deuda_sobre_salario' (2025-12 a 2026-04): PSI=0.598"
+    },
+    {
+      "severidad": "critica",
+      "periodo": "2025-12 a 2026-04",
+      "variable": "salario_sobre_ingreso_datacredito",
+      "mensaje": "Drift crítico en 'salario_sobre_ingreso_datacredito' (2025-12 a 2026-04): PSI=0.243"
+    }
+  ],
+  "recomendaciones": [
+    "🔴 Se superó el umbral crítico: se recomienda REENTRENAR el modelo con datos recientes.",
+    "Variables a revisar: capital_prestado, plazo_meses, salario_cliente, total_otros_prestamos, promedio_ingresos_datacredito, deuda_sobre_salario, salario_sobre_ingreso_datacredito",
+    "Variables en observación: cuota_pactada, huella_consulta, cuota_sobre_salario"
+  ]
+}
